@@ -1,7 +1,7 @@
 data = read.delim("/Users/ethering/projects/charala/go_found_notfound.txt", header=TRUE, sep="\t")
 #header and line example:
-#go_term description     secretome_genes non_secretome_genes     population
-#GO:0006071      glycerol metabolic process      1       6       7
+#go_term	description	secretome_genes	non_secretome_genes	prob of combination	expected	population	p-value
+#GO:0016798	hydrolase activity, acting on glycosyl bonds	1	0	1	0.064151	1	0
 
 #parameters
 #sumOfPopulation - the total number of genes in the geneome (secretome and non-secretome) 10405 in this case
